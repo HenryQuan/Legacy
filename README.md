@@ -17,7 +17,7 @@ This was a Flappy Bird clone powered by cocos2d. It was really popular. I wonder
 #### HenryBird
 It was a tutorial? I cannot remember. It still looks fancy.
 
-## Minecraft windows programs
+## MCPE save editor
 Entity, ID and Save were three different VC++ programs for editing Minecraft PE save files. I think it worked but not really good.
 
 ## SuuBird
