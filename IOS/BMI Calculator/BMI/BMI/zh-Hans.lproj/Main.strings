@@ -1,0 +1,66 @@
+
+/* Class = "IBUITextView"; text = "BMI means \"Body Mass Index\". It is calculate by deviding your weight by the square of your height. It can show you that whether you are healthy or not."; ObjectID = "4u0-ae-v7T"; */
+"AEp-1l-6Tp.text" = "BMI指数（身体质量指数，简称体质指数又称体重指数，英文为Body Mass Index，简称BMI），是用体重公斤数除以身高米数平方得出的数字，是目前国际上常用的衡量人体胖瘦程度以及是否健康的一个标准。";
+
+/* Class = "IBUILabel"; text = "Weight"; ObjectID = "Cut-yI-8Lu"; */
+"Cut-yI-8Lu.text" = "体重";
+
+/* Class = "IBUILabel"; text = "xx   kg"; ObjectID = "Fmz-Kj-7Ri"; */
+"Fmz-Kj-7Ri.text" = "xx   kg";
+
+/* Class = "IBUINavigationItem"; title = "BMI"; ObjectID = "Fqv-G3-Bsz"; */
+"Fqv-G3-Bsz.title" = "BMI";
+
+/* Class = "IBUIButton"; normalTitle = "clean"; ObjectID = "H4J-kg-3Tb"; */
+"H4J-kg-3Tb.normalTitle" = "清除";
+
+/* Class = "IBUILabel"; text = "xxxxxxxxxxxxxxxxxxxxx"; ObjectID = "JKR-Zo-xsQ"; */
+"JKR-Zo-xsQ.text" = "xxxxxxxxxxxxxxxxxxxxx";
+
+/* Class = "IBUITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "LXL-tS-3Y1"; */
+"LXL-tS-3Y1.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "IBUILabel"; text = "Weight"; ObjectID = "LaM-3Q-pvQ"; */
+"LaM-3Q-pvQ.text" = "体重";
+
+/* Class = "IBUIButton"; normalTitle = "calculate"; ObjectID = "Ngq-cD-7dg"; */
+"Ngq-cD-7dg.normalTitle" = "计算";
+
+/* Class = "IBUILabel"; text = "Height"; ObjectID = "O0Q-9V-Lf2"; */
+"O0Q-9V-Lf2.text" = "身高";
+
+/* Class = "IBUIButton"; normalTitle = "Back"; ObjectID = "QUX-zu-UJ9"; */
+"QUX-zu-UJ9.normalTitle" = "返回";
+
+/* Class = "IBUILabel"; text = "xx"; ObjectID = "Ri4-ta-ggs"; */
+"Ri4-ta-ggs.text" = "xx";
+
+/* Class = "IBUILabel"; text = "Your BMI"; ObjectID = "S9I-kI-Jv6"; */
+"S9I-kI-Jv6.text" = "BMI指数";
+
+/* Class = "IBUILabel"; text = "B M I"; ObjectID = "SEB-7h-ABz"; */
+"SEB-7h-ABz.text" = "B M I";
+
+/* Class = "IBUILabel"; text = "Height"; ObjectID = "UOH-bc-IcP"; */
+"UOH-bc-IcP.text" = "身高";
+
+/* Class = "IBUIBarButtonItem"; title = "返回"; ObjectID = "UZD-wS-zfo"; */
+"UZD-wS-zfo.title" = "返回";
+
+/* Class = "IBUILabel"; text = "cm"; ObjectID = "UqF-W4-qTe"; */
+"UqF-W4-qTe.text" = "cm";
+
+/* Class = "IBUINavigationItem"; title = "关于 BMI"; ObjectID = "WOc-VX-kd3"; */
+"WOc-VX-kd3.title" = "关于 BMI";
+
+/* Class = "IBUILabel"; text = "xxx cm"; ObjectID = "fY8-Em-dFc"; */
+"fY8-Em-dFc.text" = "xxx cm";
+
+/* Class = "IBUILabel"; text = "Results"; ObjectID = "jWR-qy-Syj"; */
+"jWR-qy-Syj.text" = "指数点评";
+
+/* Class = "IBUILabel"; text = "kg"; ObjectID = "nJk-Nj-vkm"; */
+"nJk-Nj-vkm.text" = "kg";
+
+/* Class = "IBUILabel"; text = "About BMI"; ObjectID = "ppo-L6-Zpj"; */
+"ppo-L6-Zpj.text" = "关于 BMI";
