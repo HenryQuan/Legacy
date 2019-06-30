@@ -1,0 +1,9 @@
+Package: henryquan
+Name: BeatMaster
+Depends: mobilesubstrate
+Version: 0.1.0
+Architecture: iphoneos-arm
+Description: After downloading music please switch off your wifi for playing.
+Maintainer: HenryQuan
+Author: HenryQuan
+Section: Tweaks

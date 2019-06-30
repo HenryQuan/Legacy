@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Entities - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\HENRYQ~1\AppData\Local\Temp\RSPD513.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Entities.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Program Files\Visual C++ 6.0\MyProjects\iPEedit\Entities\Colour.cpp"
+]
+Creating command line "cl.exe @C:\Users\HENRYQ~1\AppData\Local\Temp\RSPD513.tmp" 
+Creating temporary file "C:\Users\HENRYQ~1\AppData\Local\Temp\RSPD514.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Entities.pdb" /debug /machine:I386 /out:"Debug/Entities.exe" /pdbtype:sept 
+".\Debug\Colour.obj"
+".\Debug\Entities.obj"
+".\Debug\EntitiesDlg.obj"
+".\Debug\Replace.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Entities.res"
+]
+Creating command line "link.exe @C:\Users\HENRYQ~1\AppData\Local\Temp\RSPD514.tmp"
+<h3>Output Window</h3>
+Compiling...
+Colour.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Entities.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,9 @@
+Package: com.henryquan.puddingunlock
+Name: puddingUnlock
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Unlock all categories in Pudding.
+Maintainer: HQ
+Author: HQ
+Section: Tweaks

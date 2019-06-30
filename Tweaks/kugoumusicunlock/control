@@ -1,0 +1,9 @@
+Package: com.henryquan
+Name: kugouMusicUnlock
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Unlock kugouMusic for overseas.
+Maintainer: HQ
+Author: HQ
+Section: Tweaks

@@ -1,0 +1,255 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\PEinfEdit.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_Henry               ICON    DISCARDABLE     "icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PEINFEDIT_DIALOG DIALOGEX 0, 0, 209, 121
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "  Minecraft PE简易修改器"
+MENU IDR_OpenSave
+FONT 10, "System"
+BEGIN
+    LTEXT           "地图名:",IDC_STATIC,8,14,27,8
+    LTEXT           "游戏模式:",IDC_STATIC,8,29,35,8
+    LTEXT           "玩家坐标:",IDC_STATIC,117,39,35,8
+    LTEXT           "生命值:",IDC_STATIC,115,20,27,8
+    LTEXT           "种子:",IDC_STATIC,8,49,19,8
+    LTEXT           "时间:",IDC_STATIC,8,74,19,8
+    LTEXT           "飞行模式:",IDC_STATIC,117,83,35,8
+    LTEXT           "无伤害:",IDC_STATIC,117,68,27,8
+    LTEXT           "昼夜交替:",IDC_STATIC,117,53,35,8
+    LTEXT           "生怪:",IDC_STATIC,8,96,19,8
+    GROUPBOX        "地图信息",IDC_STATIC,4,3,101,107
+    EDITTEXT        IDC_name,38,13,63,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "生存",IDC_mode,50,28,40,12
+    EDITTEXT        IDC_time,39,68,55,12,ES_CENTER | ES_AUTOHSCROLL
+    GROUPBOX        "玩家信息",IDC_STATIC,110,5,95,93
+    PUSHBUTTON      "开",IDC_daynight,160,51,40,12
+    PUSHBUTTON      "开",IDC_spawnmob,47,94,40,12
+    EDITTEXT        IDC_health,154,12,46,12,ES_CENTER | ES_AUTOHSCROLL
+    PUSHBUTTON      "开",IDC_hurt,160,66,40,12
+    PUSHBUTTON      "开",IDC_mayfly,160,82,40,12
+    PUSHBUTTON      "保存",IDC_save,164,102,40,14
+    CTEXT           "坐标",IDC_zuobiao,155,39,46,8
+    CTEXT           "种子",IDC_seed,40,43,58,8
+    PUSHBUTTON      "日出",IDC_time0,40,80,25,12
+    PUSHBUTTON      "日落",IDC_time9600,69,80,25,12
+    PUSHBUTTON      "复制种子",IDC_copyseed,49,52,39,12
+    PUSHBUTTON      "满血",IDC_fullhealth,153,25,23,12
+    PUSHBUTTON      "无限",IDC_infinityhealth,178,25,23,12
+    LTEXT           "By HenryQuan",IDC_STATIC,2,113,49,8
+END
+
+IDD_About DIALOG DISCARDABLE  0, 0, 169, 98
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于"
+FONT 10, "System"
+BEGIN
+    CONTROL         133,IDC_STATIC,"Static",SS_BITMAP,64,4,40,40
+    LTEXT           "iPEedit v1.0",IDC_STATIC,64,50,40,8
+    LTEXT           "一个简易的VC Minecraft PE 修改器",IDC_STATIC,25,65,119,
+                    8
+    PUSHBUTTON      "主页",IDC_BUTTON1,142,80,25,14
+    LTEXT           "QQ群:264831497",IDC_STATIC,2,86,57,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "PEinfEdit Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "PEinfEdit\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2013\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "PEinfEdit.EXE\0"
+            VALUE "ProductName", "PEinfEdit 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_PEINFEDIT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 202
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 114
+    END
+
+    IDD_About, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 162
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_OpenSave MENU DISCARDABLE 
+BEGIN
+    POPUP "文件"
+    BEGIN
+        POPUP "打开..."
+        BEGIN
+            MENUITEM "level.dat",                   ID_leveldat
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "退出",                        ID_Exit
+    END
+    POPUP "帮助"
+    BEGIN
+        MENUITEM "关于",                        ID_About
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_HenryQuan           BITMAP  DISCARDABLE     "res\\Henry.bmp"
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\PEinfEdit.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

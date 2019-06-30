@@ -1,0 +1,9 @@
+Package: com.henryquan
+Name: iSchedulerCr
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: A tweak for iScheduler.
+Maintainer: HQ
+Author: HQ
+Section: Tweaks
