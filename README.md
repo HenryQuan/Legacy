@@ -47,4 +47,4 @@ This was a hack for the Game, Puzzle and Dragons. I still play this game now. It
 No idea what this was.
 
 #### [Retry](https://www.metacritic.com/game/ios/retry)
-This was a good game back then. Since the creation of Fluppy Bird, people started making simple but good games that can be played over and over again.
+This was a good game back then. Since the creation of Flappy Bird, people started making simple but good games that can be played over and over again.
