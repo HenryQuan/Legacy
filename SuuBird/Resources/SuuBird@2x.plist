@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>about</key>
+	<dict>
+		<key>app</key>
+		<string>SuuBird</string>
+		<key>author</key>
+		<string>Henry Quan</string>
+		<key>web</key>
+		<string>Nil</string>
+	</dict>
+	<key>frames</key>
+	<dict>
+		<key>gameover.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{472, 710}, {474, 152}}</string>
+			<key>offset</key>
+			<string>{-7, 3}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{6, 12}, {474, 152}}</string>
+			<key>sourceSize</key>
+			<string>{500, 182}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>grass.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{4, 496}, {640, 206}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {640, 206}}</string>
+			<key>sourceSize</key>
+			<string>{640, 206}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>ground.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>active</key>
+				<true/>
+				<key>awake</key>
+				<true/>
+				<key>bullet</key>
+				<false/>
+				<key>fixed</key>
+				<true/>
+				<key>gravityScale</key>
+				<real>1</real>
+				<key>shapes</key>
+				<array>
+					<dict>
+						<key>density</key>
+						<real>1</real>
+						<key>fixtures</key>
+						<array>
+							<array>
+								<string>{-319.80000000000001, -188}</string>
+								<string>{318, 88}</string>
+								<string>{318.20000000000005, 298}</string>
+								<string>{-320, 298.20000000000005}</string>
+							</array>
+						</array>
+						<key>friction</key>
+						<real>0.2000000029802322</real>
+						<key>name</key>
+						<string>GroundShape</string>
+						<key>restitution</key>
+						<real>0</real>
+						<key>sensor</key>
+						<false/>
+						<key>shapeID</key>
+						<integer>0</integer>
+						<key>type</key>
+						<integer>1</integer>
+					</dict>
+				</array>
+				<key>sleep</key>
+				<true/>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{4, 4}, {640, 484}}</string>
+			<key>offset</key>
+			<string>{0, -58}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 116}, {640, 484}}</string>
+			<key>sourceSize</key>
+			<string>{640, 600}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>pillar.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{652, 4}, {120, 600}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {120, 600}}</string>
+			<key>sourceSize</key>
+			<string>{120, 600}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>progress.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{412, 926}, {400, 28}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {400, 28}}</string>
+			<key>sourceSize</key>
+			<string>{400, 28}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>progressedge.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{4, 926}, {400, 28}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {400, 28}}</string>
+			<key>sourceSize</key>
+			<string>{400, 28}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>suubird.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{4, 710}, {460, 208}}</string>
+			<key>offset</key>
+			<string>{0, -4}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 8}, {460, 208}}</string>
+			<key>sourceSize</key>
+			<string>{460, 216}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>thebird.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>active</key>
+				<true/>
+				<key>awake</key>
+				<true/>
+				<key>bullet</key>
+				<false/>
+				<key>fixed</key>
+				<true/>
+				<key>gravityScale</key>
+				<real>1</real>
+				<key>shapes</key>
+				<array>
+					<dict>
+						<key>density</key>
+						<real>1</real>
+						<key>fixtures</key>
+						<array>
+							<array>
+								<string>{21.855244732018058, 5.7183909299651168}</string>
+								<string>{36.200000000000003, 14}</string>
+								<string>{20.912356780312127, 20.872845285193023}</string>
+							</array>
+							<array>
+								<string>{21.855244732018058, -25.059267790767358}</string>
+								<string>{21.855244732018058, 5.7183909299651168}</string>
+								<string>{20.912356780312127, 20.872845285193023}</string>
+								<string>{20.207563439033489, 27.680469772760397}</string>
+								<string>{-29.141523627391326, 27.762213252324361}</string>
+								<string>{-28.7104891351829, -25.968032178506789}</string>
+								<string>{-11.262572085995995, -34.689296737523939}</string>
+							</array>
+						</array>
+						<key>friction</key>
+						<real>0.2000000029802322</real>
+						<key>name</key>
+						<string>BirdShape</string>
+						<key>restitution</key>
+						<real>0</real>
+						<key>sensor</key>
+						<false/>
+						<key>shapeID</key>
+						<integer>0</integer>
+						<key>type</key>
+						<integer>1</integer>
+					</dict>
+				</array>
+				<key>sleep</key>
+				<true/>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{652, 612}, {62, 62}}</string>
+			<key>offset</key>
+			<string>{3, 3}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{12, 6}, {62, 62}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{1024, 1024}</string>
+		<key>textureFileName</key>
+		<string>SuuBird@2x.png</string>
+	</dict>
+</dict>
+</plist>
