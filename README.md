@@ -38,7 +38,7 @@ I think this was a really good plugin for scheduled power off/on your iPhone. Yo
 Kugou music is a Chinese music app. This removed region lock (you had to be in China to listen some songs). They check you phone number, your ISP and your location.
 
 #### [mcpemod](https://github.com/HenryQuan/Legacy/tree/master/Tweaks/mcpemod)
-This was my first [GitHub repo](https://github.com/HenryQuan/MCPEMods) and my best tweak ever made.
+This was my first [GitHub repo](https://github.com/HenryQuan/MCPEMod) and my best tweak ever made.
 
 #### [pad hack](https://github.com/HenryQuan/Legacy/tree/master/Tweaks/padhack)
 This was a hack for the Game, Puzzle and Dragons. I still play this game now. It has been more than 1500 days.
